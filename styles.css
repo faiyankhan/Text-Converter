@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-#input {
+.textbox{
     width: 70%;
     display: block;
     margin: 20px auto;
@@ -17,11 +17,3 @@ body {
     border-radius: 8px;
 }
 
-#output {
-    width: 70%;
-    display: block;
-    margin: 20px auto;
-    min-height: 100px;
-    padding: 10px;
-    border-radius: 8px;
-}
