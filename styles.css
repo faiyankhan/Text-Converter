@@ -18,14 +18,13 @@ body {
 }
 
 .btn-container {
-    width: 80%;
     flex-wrap: wrap;
     margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.action-btns {
+.action-btns , .clear-btn{
     width: 150px;
     padding: 12px 15px;
     margin: 10px 15px;
@@ -33,14 +32,22 @@ body {
     border-radius: 30px;
     border: none;
     background-color: #ff0000;
-    color: white; 
+    color: white;
     box-shadow: 3px 3px 3px black;
     cursor: pointer;
 }
 
-.action-btns:hover{
-    background-color:#ff4d4d;
+.action-btns:hover , .clear-btn:hover{
+    background-color: #ff4d4d;
     transition: 0.5s;
     box-shadow: none;
     cursor: pointer;
+}
+
+
+@media screen and(max-width: 500px) {
+    .btn-container {
+        justify-content: center;
+    }
+
 }
