@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-.textbox{
+.textbox {
     width: 70%;
     display: block;
     margin: 20px auto;
@@ -17,19 +17,28 @@ body {
     border-radius: 8px;
 }
 
-.btn-container{
-    width: 70%;
+.btn-container {
+    width: 80%;
+    flex-wrap: wrap;
     margin: 20px auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.action-btns{
+.action-btns {
     width: 150px;
-    padding: 8px 15px;
+    padding: 12px 15px;
+    margin: 10px 15px;
     font-size: 14px;
     border-radius: 30px;
     border: none;
     background-color: #ff0000;
-    color: white;
+    color: white; 
+    box-shadow: 3px 3px 3px black;
+}
+
+.action-btns:hover{
+    background-color:#ff4d4d;
+    transition: 0.5s;
+    box-shadow: none;
 }
