@@ -11,7 +11,9 @@ function handleLowerCase() {
     outputElement.value = inputText.toLowerCase();
 }
 
-function handleWordCount() {}
+function handleWordCount() {
+    const inputText = inputElement.value;
+}
 
 function handleCharacterCount() {
     const inputText = inputElement.value;
