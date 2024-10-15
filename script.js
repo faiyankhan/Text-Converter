@@ -13,4 +13,7 @@ function handleLowerCase() {
 
 function handleWordCount() {}
 
-function handleCharacterCount() {}
+function handleCharacterCount() {
+    const inputText = inputElement.value;
+    outputElement.value = `Character count : ${inputText.length}`;
+}

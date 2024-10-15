@@ -24,10 +24,11 @@ body {
     justify-content: space-evenly;
 }
 
-.action-btns , .clear-btn{
+.action-btns,
+.clear-btn {
     width: 150px;
     padding: 12px 15px;
-    margin: 10px 15px;
+    margin: 18px 15px;
     font-size: 14px;
     border-radius: 30px;
     border: none;
@@ -37,17 +38,10 @@ body {
     cursor: pointer;
 }
 
-.action-btns:hover , .clear-btn:hover{
+.action-btns:hover,
+.clear-btn:hover {
     background-color: #ff4d4d;
     transition: 0.5s;
     box-shadow: none;
     cursor: pointer;
-}
-
-
-@media screen and(max-width: 500px) {
-    .btn-container {
-        justify-content: center;
-    }
-
 }
