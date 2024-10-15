@@ -35,10 +35,12 @@ body {
     background-color: #ff0000;
     color: white; 
     box-shadow: 3px 3px 3px black;
+    cursor: pointer;
 }
 
 .action-btns:hover{
     background-color:#ff4d4d;
     transition: 0.5s;
     box-shadow: none;
+    cursor: pointer;
 }
