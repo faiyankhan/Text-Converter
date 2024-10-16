@@ -12,7 +12,8 @@ function handleLowerCase() {
 }
 
 function handleWordCount() {
-    const inputText = inputElement.value;
+   const totalWords = inputElement.value.split(" ").length;
+   outputElement.value = `Total Words are : ${totalWords}`;
 }
 
 function handleCharacterCount() {
