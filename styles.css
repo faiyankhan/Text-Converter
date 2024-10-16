@@ -46,3 +46,13 @@ body {
     box-shadow: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    .btn-container{
+        justify-content: center;
+    }
+
+    .textbox{
+        width: 90%;
+    }
+}
