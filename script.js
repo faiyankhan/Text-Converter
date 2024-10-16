@@ -12,11 +12,16 @@ function handleLowerCase() {
 }
 
 function handleWordCount() {
-   const totalWords = inputElement.value.split(" ").length;
-   outputElement.value = `Total Words are : ${totalWords}`;
+    const totalWords = inputElement.value.split(" ").length;
+    outputElement.value = `Total Words are : ${totalWords}`;
 }
 
 function handleCharacterCount() {
     const inputText = inputElement.value;
     outputElement.value = `Character count : ${inputText.length}`;
+}
+
+function clearInput() {
+    inputElement.value = '';
+    outputElement.value = '';
 }
