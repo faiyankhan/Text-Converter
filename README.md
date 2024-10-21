@@ -12,3 +12,10 @@ A simple Text Converter web application built using HTML, CSS, and JavaScript. T
 - HTML: Structure of the web page.
 - CSS: Styling for a clean and user-friendly interface.
 - JavaScript: Functionality for text conversion and manipulation.
+
+## Folder Structure :
+Text-Converter/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
